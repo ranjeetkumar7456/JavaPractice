@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 public class EmployeeDataProcessor {
 
     // Employee inner class
-    static class Employee {
+    public static class Employee {
         private String id;
         private String name;
         private double salary;

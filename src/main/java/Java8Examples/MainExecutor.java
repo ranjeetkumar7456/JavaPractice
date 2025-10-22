@@ -21,7 +21,7 @@ public class MainExecutor {
             Map<String, String> results = new HashMap<>();
 
             System.out.println("\n" + repeatString("=", 60));
-            System.out.println("STEP 1: Executing EmployeeDataProcessor");
+            System.out.println("STEP 1: Executing EmployeeDataProcessorUpdated");
             System.out.println(repeatString("=", 60));
             String employeeResult = executeEmployeeDataProcessor();
             results.put("EMPLOYEE", employeeResult);
@@ -275,7 +275,7 @@ public class MainExecutor {
     }
 
     // Sample data creation methods
-    private static List<EmployeeDataProcessor.Employee> createSampleEmployees() {
+    public static List<EmployeeDataProcessor.Employee> createSampleEmployees() {
         return Arrays.asList(
                 new EmployeeDataProcessor.Employee("E001", "Aarav Sharma", 85000, "Development",
                         LocalDate.of(2020, 3, 15), 28,
