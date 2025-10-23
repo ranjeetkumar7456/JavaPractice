@@ -14,8 +14,7 @@
           <include name="beforeTestSetup"/>
           <include name="baseTeardown"/>
           <include name="baseSetup"/>
-          <include name="verifyValidLogin"/>
-          <include name="verifyLoginPageUIElements"/>
+          <include name="verifyInvalidLogin"/>
         </methods>
       </class> <!-- com.testLib.LoginTest -->
     </classes>

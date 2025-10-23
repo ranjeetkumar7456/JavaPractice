@@ -12,7 +12,7 @@ public class LoginPageLocators {
     }
 
     // ✅ Private fields with @FindBy annotations
-    @FindBy(id = "user-name")
+    @FindBy(xpath = "//input[@id='user-name']")
     private WebElement usernameField;
 
     @FindBy(id = "password")
@@ -21,14 +21,13 @@ public class LoginPageLocators {
     @FindBy(id = "login-button")
     private WebElement loginButton;
 
-    @FindBy(css = "div.error-message-container h3")
+    @FindBy(xpath = "//h3[@data-test='error']")
     private WebElement errorMessage;
 
     @FindBy(className = "login_logo")
     private WebElement loginLogo;
 
-    @FindBy(className = "bot_column")
-    private WebElement botImage;
+
 
     @FindBy(css = ".login_wrapper")
     private WebElement loginWrapper;
@@ -52,10 +51,6 @@ public class LoginPageLocators {
 
     public WebElement getLoginLogo() {
         return loginLogo;
-    }
-
-    public WebElement getBotImage() {
-        return botImage;
     }
 
     public WebElement getLoginWrapper() {

@@ -169,17 +169,6 @@ public class LoginPageActions {
     }
 
     /**
-     * Check if bot image is displayed
-     */
-    public boolean isBotImageDisplayed() {
-        try {
-            return loginPage.getBotImage().isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-    /**
      * Check if user is on login page by verifying URL or title
      */
     public boolean isOnLoginPage() {
@@ -250,7 +239,7 @@ public class LoginPageActions {
      */
     public String getLoginButtonText() {
         try {
-            return loginPage.getLoginButton().getText();
+            return loginPage.getLoginButton().getAttribute("value");
         } catch (Exception e) {
             return "";
         }

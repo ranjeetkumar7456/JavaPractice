@@ -20,7 +20,8 @@ import java.lang.reflect.Method;
 public abstract class BaseTest {
 
     protected WebDriver driver;
-    private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
+
+    // Remove LoginPageActions specific code - let child classes handle their own page objects
 
     /**
      * Suite Level Setup
@@ -63,24 +64,26 @@ public abstract class BaseTest {
         if ("parallel".equalsIgnoreCase(executionType)) {
             DriverManager.initDriver(threadName);
             driver = DriverManager.getDriver();
-            driverThreadLocal.set(driver);
             AdvancedLogger.info("🖥️ Parallel Driver initialized for thread: " + threadName);
         } else {
             DriverManager.initDriver("MainThread");
             driver = DriverManager.getDriver();
-            driverThreadLocal.set(driver);
             AdvancedLogger.info("🖥️ Single Driver initialized");
         }
+
+        // Call abstract method for child class specific setup
+        setupPageObjects();
 
         // Navigate to base URL
         String baseUrl = ConfigReader.getProperty("base.url");
         driver.get(baseUrl);
         AdvancedLogger.info("🌍 Navigated to: " + baseUrl);
-
-        // Maximize window
-        driver.manage().window().maximize();
-        AdvancedLogger.info("📱 Browser window maximized");
     }
+
+    /**
+     * Abstract method for child classes to initialize their page objects
+     */
+    protected abstract void setupPageObjects();
 
     /**
      * Method Level Teardown - Runs after each test method
@@ -110,21 +113,29 @@ public abstract class BaseTest {
                 break;
         }
 
+        // Call abstract method for child class specific cleanup
+        cleanupPageObjects();
+
         // Quit driver
-        if (driver != null) {
-            DriverManager.quitDriver();
-            AdvancedLogger.info("🔚 Driver quit successfully");
-        }
+        DriverManager.quitDriver();
+        AdvancedLogger.info("🔚 Driver quit successfully");
 
         ExtentReportManager.removeTest();
         AdvancedLogger.info("🎬 Test execution completed: " + className + "." + methodName + "\n");
     }
 
     /**
+     * Abstract method for child classes to cleanup their page objects
+     */
+    protected abstract void cleanupPageObjects();
+
+    /**
      * Suite Level Teardown
      */
     @AfterSuite(alwaysRun = true)
     public void afterSuiteTeardown() {
+        // Clean up any remaining drivers
+        DriverManager.cleanupAllDrivers();
         ExtentReportManager.flushReport();
         AdvancedLogger.info("🏁 ========== AUTOMATION SUITE COMPLETED ==========");
     }
@@ -134,7 +145,7 @@ public abstract class BaseTest {
      */
     private void captureScreenshot(String screenshotName) {
         try {
-            WebDriver currentDriver = driverThreadLocal.get();
+            WebDriver currentDriver = getDriver();
             if (currentDriver != null) {
                 String base64Screenshot = ((TakesScreenshot) currentDriver).getScreenshotAs(OutputType.BASE64);
                 ExtentReportManager.addScreenshot(base64Screenshot, screenshotName);
@@ -149,7 +160,7 @@ public abstract class BaseTest {
      * Get current driver instance
      */
     protected WebDriver getDriver() {
-        return driverThreadLocal.get();
+        return DriverManager.getDriver();
     }
 
     /**

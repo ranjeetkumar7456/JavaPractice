@@ -28,6 +28,12 @@ public class DriverManager {
      */
     public static synchronized void initDriver(String threadName) {
         try {
+            // Check if driver already exists for this thread
+            if (driverThreadLocal.get() != null) {
+                AdvancedLogger.info("[" + threadName + "] ♻️ WebDriver already initialized, reusing...");
+                return;
+            }
+
             String browser = ConfigReader.getProperty("browser", "chrome").toLowerCase();
             boolean headless = ConfigReader.getBooleanProperty("headless");
             int implicitWait = ConfigReader.getIntProperty("implicit.wait");
@@ -38,6 +44,7 @@ public class DriverManager {
             // Apply timeouts
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWait));
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(pageLoadTimeout));
+            driver.manage().window().maximize();
 
             driverThreadLocal.set(driver);
             driverPool.put(threadName, driver);
@@ -61,7 +68,8 @@ public class DriverManager {
                 if (headless) {
                     chromeOptions.addArguments("--headless=new");
                 }
-                chromeOptions.addArguments("--disable-gpu", "--remote-allow-origins=*", "--start-maximized");
+                chromeOptions.addArguments("--disable-gpu", "--remote-allow-origins=*", "--start-maximized",
+                        "--disable-blink-features=AutomationControlled");
                 return new ChromeDriver(chromeOptions);
 
             case "firefox":
@@ -110,6 +118,8 @@ public class DriverManager {
                 AdvancedLogger.error("❌ Error while quitting driver: " + e.getMessage());
             } finally {
                 driverThreadLocal.remove();
+                // Remove from pool as well
+                driverPool.entrySet().removeIf(entry -> entry.getValue().equals(driver));
             }
         }
     }
@@ -126,5 +136,23 @@ public class DriverManager {
      */
     public static String getCurrentBrowser() {
         return ConfigReader.getProperty("browser", "chrome");
+    }
+
+    /**
+     * Clean up all drivers (for suite level cleanup)
+     */
+    public static void cleanupAllDrivers() {
+        driverPool.forEach((threadName, driver) -> {
+            try {
+                if (driver != null) {
+                    driver.quit();
+                    AdvancedLogger.info("🧹 Cleaned up driver for thread: " + threadName);
+                }
+            } catch (Exception e) {
+                AdvancedLogger.error("❌ Error cleaning up driver for thread: " + threadName);
+            }
+        });
+        driverPool.clear();
+        driverThreadLocal.remove();
     }
 }
