@@ -1,0 +1,1500 @@
+2025-10-23 14:22:21.655 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_22_21.html
+2025-10-23 14:22:21.658 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:22:21.658 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:22:21.660 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:22:21.660 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:22:21.661 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:22:21.661 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:22:21.661 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:22:21.666 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:22:21.666 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:22:21.677 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:22:21.706 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:22:23.693 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:22:23.693 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:22:23.995 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:22:24.001 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:22:24.013 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:22:24.014 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:22:24.018 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:24.157 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:22:24.157 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:22:24.157 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:22:24.162 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:22:24.802 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:22:24.802 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:22:25.107 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:22:25.112 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:22:25.114 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:22:25.114 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:22:25.114 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:25.241 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:22:25.241 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:22:25.242 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:22:25.243 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:22:25.882 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:22:25.882 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:22:26.186 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:22:26.191 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:22:26.192 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:22:26.192 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:22:26.193 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.312 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:22:26.313 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:22:26.313 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:22:26.319 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.320 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:22:26.320 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.326 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.327 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:22:26.327 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.330 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.330 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:22:26.330 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.332 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.332 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:22:26.332 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.334 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.334 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:22:26.334 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.337 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.337 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:22:26.338 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.340 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.340 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:22:26.340 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.342 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.343 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:22:26.343 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.348 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.349 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:22:26.349 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.352 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.353 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:22:26.353 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.358 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.358 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:22:26.359 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.364 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.364 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:22:26.365 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.370 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:22:26.370 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:22:26.370 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:22:26.651 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:22:26.651 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:25:51.652 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_25_51.html
+2025-10-23 14:25:51.654 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:25:51.654 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:25:51.656 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:25:51.657 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:25:51.657 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:25:51.657 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:25:51.657 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:25:51.662 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:25:51.663 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:25:51.675 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:25:51.675 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:25:51.682 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:25:52.971 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:25:52.972 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:25:53.274 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:25:53.281 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:25:53.288 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:25:53.289 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:25:53.292 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:53.310 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:25:53.311 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:25:53.312 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:25:53.312 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:25:53.542 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:25:53.565 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:25:53.565 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:25:53.567 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:25:53.567 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:25:53.567 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:25:53.570 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:25:53.570 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:25:53.570 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:25:53.709 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:25:53.709 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:25:53.710 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:25:53.715 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:25:54.485 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:25:54.485 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:25:54.824 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:25:54.831 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:25:54.832 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:25:54.832 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:25:54.833 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:54.833 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:25:54.833 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:25:54.833 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:25:54.940 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:25:54.940 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:25:54.941 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:25:54.941 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:25:54.943 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:25:54.944 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:25:55.077 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:25:55.077 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:25:55.077 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:25:55.079 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:25:55.797 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:25:55.797 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:25:56.098 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:25:56.103 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:25:56.104 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:25:56.104 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:25:56.104 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.104 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:25:56.105 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:25:56.105 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:25:56.106 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:25:56.106 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:25:56.106 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:25:56.186 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:25:56.187 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:25:56.187 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:25:56.187 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:25:56.188 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52026/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:25:56.188 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:25:56.315 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:25:56.315 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:25:56.316 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:25:56.321 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.321 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:25:56.321 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.325 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.326 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:25:56.326 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.327 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.328 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:25:56.328 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.330 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.330 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:25:56.330 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.332 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.332 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:25:56.332 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.334 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.334 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:25:56.335 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.337 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.337 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:25:56.337 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.341 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.342 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:25:56.342 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.346 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.346 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:25:56.347 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.350 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.350 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:25:56.351 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.355 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.356 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:25:56.356 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.361 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.361 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:25:56.361 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.367 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:25:56.367 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:25:56.367 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:25:56.704 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:25:56.704 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:40:46.166 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_40_45.html
+2025-10-23 14:40:46.169 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:40:46.170 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:40:46.172 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:40:46.173 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:40:46.173 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:40:46.173 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:40:46.173 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:40:46.181 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:40:46.182 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:40:46.199 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:40:46.199 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:40:46.208 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:40:48.012 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:40:48.013 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:40:48.295 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:40:48.299 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:40:48.310 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:40:48.310 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:40:48.313 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:48.331 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:40:48.332 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:40:48.332 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:40:48.332 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:40:48.556 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:40:48.581 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:40:48.581 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:40:48.582 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:40:48.582 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:40:48.583 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:40:48.586 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:40:48.587 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:40:48.587 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:40:48.749 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:40:48.749 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:40:48.750 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:40:48.754 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:40:49.468 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:40:49.469 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:40:49.757 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:40:49.762 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:40:49.764 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:40:49.764 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:40:49.765 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:49.766 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:40:49.766 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:40:49.767 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:40:49.865 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:40:49.865 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:40:49.866 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:40:49.866 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:40:49.868 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:40:49.868 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:40:49.979 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:40:49.979 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:40:49.979 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:40:49.981 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:40:50.618 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:40:50.619 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:40:50.989 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:40:50.994 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:40:50.995 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:40:50.995 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:40:50.996 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:50.996 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:40:50.996 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:40:50.996 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:40:50.997 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:40:50.997 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:40:50.997 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:40:51.073 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:40:51.073 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:40:51.073 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:40:51.073 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:40:51.074 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52476}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52476/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:40:51.074 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:40:51.177 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:40:51.177 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:40:51.177 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:40:51.182 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.182 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:40:51.183 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.186 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.187 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:40:51.187 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.188 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.188 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:40:51.188 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.190 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.190 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:40:51.191 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.193 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.194 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:40:51.194 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.196 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.196 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:40:51.196 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.198 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.199 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:40:51.199 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.204 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.204 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:40:51.204 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.209 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.210 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:40:51.210 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.213 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.214 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:40:51.214 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.219 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.219 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:40:51.219 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.223 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.223 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:40:51.224 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.228 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:40:51.228 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:40:51.228 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:40:51.571 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:40:51.573 [main] INFO  utils.AdvancedLogger - 📄 Report maintained successfully
+2025-10-23 14:40:51.573 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:41:04.390 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_41_04.html
+2025-10-23 14:41:04.393 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:41:04.394 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:41:04.396 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:41:04.396 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:41:04.396 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:41:04.396 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:41:04.396 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:41:04.402 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:41:04.403 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:41:04.415 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:41:04.415 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:41:04.422 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:05.746 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:05.747 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:06.038 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:06.043 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:06.053 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:41:06.053 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:41:06.055 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:06.070 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:41:06.071 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:41:06.071 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:41:06.071 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:41:06.286 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:41:06.306 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:41:06.306 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:41:06.308 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:41:06.308 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:41:06.309 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:41:06.311 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:06.312 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:06.312 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:06.452 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:06.452 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:06.453 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:41:06.456 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:07.103 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:07.103 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:07.379 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:07.384 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:07.386 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:41:07.386 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:41:07.387 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:07.387 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:41:07.387 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:41:07.387 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:41:07.491 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:07.491 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:07.492 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:07.492 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:07.494 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:41:07.494 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:07.610 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:07.610 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:07.611 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:41:07.612 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:41:08.254 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:08.254 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:08.543 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:08.552 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:08.553 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:41:08.554 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:41:08.554 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.554 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:41:08.555 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:41:08.555 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:41:08.555 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:08.555 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:08.556 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:41:08.639 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:08.639 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:08.639 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:08.639 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:08.640 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52564}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52564/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:41:08.641 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:41:08.751 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:08.751 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:08.751 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:41:08.756 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.756 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:41:08.756 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.762 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.762 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:08.762 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.764 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.764 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:08.765 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.767 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.767 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:08.767 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.770 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.770 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:08.771 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.773 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.773 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:41:08.773 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.775 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.776 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:41:08.776 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.781 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.781 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:41:08.781 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.787 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.787 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:41:08.787 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.790 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.791 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:41:08.791 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.795 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.796 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:41:08.796 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.801 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.801 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:41:08.801 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:08.807 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:08.808 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:41:08.808 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:09.115 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:41:09.116 [main] INFO  utils.AdvancedLogger - 📄 Report maintained successfully
+2025-10-23 14:41:09.116 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:41:27.497 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_41_27.html
+2025-10-23 14:41:27.499 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:41:27.499 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:41:27.500 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:41:27.500 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:41:27.501 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:41:27.501 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:41:27.501 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:41:27.506 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:41:27.507 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:41:27.518 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:41:27.518 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:41:27.525 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:28.770 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:28.770 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:29.073 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:29.079 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:29.087 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:41:29.087 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:41:29.091 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:29.110 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:41:29.111 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:41:29.111 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:41:29.111 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:41:29.342 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:41:29.361 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:41:29.361 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:41:29.362 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:41:29.362 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:41:29.363 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:41:29.365 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:29.365 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:29.366 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:29.492 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:29.493 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:29.493 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:41:29.496 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:30.257 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:30.257 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:30.613 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:30.617 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:30.618 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:41:30.618 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:41:30.619 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:30.619 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:41:30.619 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:41:30.619 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:41:30.712 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:30.713 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:30.713 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:30.713 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:30.714 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:41:30.715 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:30.836 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:30.836 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:30.837 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:41:30.838 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:41:31.535 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:31.535 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:31.833 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:31.838 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:31.838 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:41:31.839 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:41:31.839 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:31.839 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:41:31.839 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:41:31.839 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:41:31.840 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:31.840 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:31.840 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:41:31.918 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:31.918 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:31.918 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:31.918 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:31.919 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52653/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:41:31.920 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:41:32.031 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:32.031 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:32.031 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:41:32.035 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.035 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:41:32.035 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.038 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.038 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:32.039 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.041 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.041 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:32.041 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.043 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.043 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:32.043 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.045 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.045 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:32.045 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.048 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.048 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:41:32.049 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.051 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.051 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:41:32.051 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.055 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.055 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:41:32.055 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.059 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.059 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:41:32.059 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.063 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.064 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:41:32.064 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.068 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.069 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:41:32.069 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.073 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.073 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:41:32.073 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.080 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:32.080 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:41:32.080 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:32.373 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:41:32.375 [main] INFO  utils.AdvancedLogger - 📄 Report maintained successfully
+2025-10-23 14:41:32.375 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:41:51.850 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_41_51.html
+2025-10-23 14:41:51.852 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:41:51.852 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:41:51.854 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:41:51.854 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:41:51.854 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:41:51.854 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:41:51.854 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:41:51.859 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:41:51.859 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:41:51.869 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:41:51.869 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:41:51.875 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:53.213 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:53.213 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:53.496 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:53.502 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:53.510 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:41:53.511 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:41:53.513 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:53.533 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:41:53.533 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:41:53.534 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:41:53.534 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:41:53.744 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:41:53.764 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:41:53.764 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:41:53.766 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:41:53.767 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:41:53.767 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:41:53.770 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:53.771 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:53.771 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:41:53.918 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:53.918 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:53.919 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:41:53.922 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:54.555 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:54.555 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:54.827 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:54.833 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:54.834 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:41:54.834 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:41:54.834 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:54.835 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:41:54.835 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:41:54.835 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:41:54.935 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:54.935 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:41:54.936 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:54.936 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:54.939 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:41:54.939 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:41:55.061 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:55.061 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:55.062 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:41:55.063 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:41:55.680 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:41:55.680 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:41:55.949 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:41:55.954 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:41:55.955 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:41:55.955 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:41:55.956 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:55.956 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:41:55.957 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:41:55.957 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:41:55.957 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:55.958 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:41:55.958 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:41:56.043 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:56.043 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:41:56.044 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:56.044 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:41:56.045 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52748/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:41:56.045 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:41:56.161 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:41:56.161 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:41:56.161 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:41:56.166 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.166 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:41:56.166 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.171 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.172 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:56.172 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.173 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.174 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:56.174 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.176 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.177 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:56.177 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.179 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.179 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:41:56.180 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.182 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.183 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:41:56.183 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.185 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.186 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:41:56.186 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.189 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.189 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:41:56.190 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.194 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.194 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:41:56.194 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.197 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.197 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:41:56.197 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.202 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.202 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:41:56.202 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.206 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.206 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:41:56.206 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.211 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:41:56.211 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:41:56.211 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:41:56.522 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:41:56.526 [main] INFO  utils.AdvancedLogger - 📄 Report maintained successfully
+2025-10-23 14:41:56.526 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 14:59:30.318 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_14_59_30.html
+2025-10-23 14:59:30.320 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 14:59:30.321 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 14:59:30.323 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 14:59:30.323 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 14:59:30.323 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 14:59:30.323 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 14:59:30.323 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 14:59:30.328 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 14:59:30.329 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 14:59:30.341 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 14:59:30.341 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 14:59:30.347 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 14:59:31.912 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:59:31.912 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:59:32.194 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:59:32.200 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:59:32.209 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 14:59:32.210 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 14:59:32.213 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:32.232 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 14:59:32.232 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 14:59:32.232 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 14:59:32.232 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 14:59:32.452 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 14:59:32.474 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 14:59:32.475 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 14:59:32.477 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 14:59:32.477 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 14:59:32.477 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 14:59:32.479 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:59:32.479 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 14:59:32.480 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 14:59:32.632 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:59:32.632 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:59:32.632 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 14:59:32.636 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:59:33.269 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:59:33.269 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:59:33.567 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:59:33.571 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:59:33.572 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 14:59:33.572 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 14:59:33.573 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:33.573 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 14:59:33.573 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 14:59:33.573 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 14:59:33.668 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:59:33.668 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 14:59:33.668 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:59:33.669 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:59:33.671 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 14:59:33.671 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 14:59:33.805 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:59:33.805 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:59:33.806 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 14:59:33.807 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 14:59:34.444 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 14:59:34.444 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 14:59:34.729 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 14:59:34.734 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 14:59:34.735 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 14:59:34.735 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 14:59:34.735 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.736 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 14:59:34.736 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 14:59:34.736 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 14:59:34.736 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:59:34.737 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 14:59:34.737 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 14:59:34.813 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:59:34.813 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 14:59:34.814 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:59:34.814 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 14:59:34.814 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53038/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 14:59:34.815 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 14:59:34.939 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 14:59:34.939 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 14:59:34.939 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 14:59:34.944 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.945 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 14:59:34.945 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.949 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.950 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:59:34.950 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.952 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.952 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:59:34.952 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.954 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.954 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:59:34.955 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.956 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.957 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 14:59:34.957 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.960 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.960 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 14:59:34.960 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.963 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.963 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 14:59:34.963 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.967 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.967 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 14:59:34.967 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.972 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.972 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 14:59:34.973 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.975 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.976 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 14:59:34.976 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.983 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.983 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 14:59:34.984 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.987 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.987 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 14:59:34.988 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:34.994 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 14:59:34.994 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 14:59:34.994 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 14:59:35.324 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 14:59:35.325 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 15:00:41.609 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_15_00_41.html
+2025-10-23 15:00:41.612 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 15:00:41.612 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 15:00:41.614 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 15:00:41.614 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 15:00:41.614 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 15:00:41.615 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 15:00:41.615 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 15:00:41.620 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 15:00:41.621 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 15:00:41.631 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 15:00:41.631 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 15:00:41.637 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:42.892 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:00:42.893 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:00:43.209 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:00:43.215 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:00:43.224 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 15:00:43.225 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 15:00:43.228 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:43.244 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 15:00:43.244 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 15:00:43.244 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 15:00:43.245 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 15:00:43.469 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 15:00:43.492 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 15:00:43.492 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 15:00:43.493 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 15:00:43.494 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 15:00:43.494 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 15:00:43.501 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:43.501 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:43.502 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:43.883 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:00:43.884 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:00:43.884 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 15:00:43.889 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:44.519 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:00:44.519 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:00:44.812 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:00:44.818 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:00:44.819 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 15:00:44.820 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 15:00:44.820 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:44.820 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 15:00:44.821 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 15:00:44.821 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 15:00:44.920 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:00:44.921 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:00:44.921 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:44.922 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:44.924 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 15:00:44.924 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:45.056 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:00:45.056 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:00:45.056 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 15:00:45.057 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 15:00:45.727 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:00:45.728 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:00:46.003 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:00:46.011 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:00:46.012 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 15:00:46.013 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 15:00:46.013 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.013 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 15:00:46.014 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 15:00:46.014 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 15:00:46.015 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:00:46.015 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:00:46.015 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 15:00:46.094 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:00:46.095 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:00:46.095 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:00:46.095 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:00:46.096 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53134/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 15:00:46.096 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 15:00:46.229 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:00:46.230 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:00:46.230 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 15:00:46.234 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.234 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 15:00:46.234 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.237 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.238 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:00:46.238 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.239 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.240 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:00:46.240 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.242 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.242 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:00:46.242 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.244 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.244 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:00:46.244 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.246 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.246 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 15:00:46.246 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.248 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.248 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 15:00:46.249 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.253 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.253 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 15:00:46.253 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.258 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.258 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 15:00:46.258 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.262 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.262 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 15:00:46.262 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.266 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.267 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 15:00:46.267 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.271 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.271 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 15:00:46.271 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.275 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 15:00:46.275 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 15:00:46.275 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:46.591 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 15:00:46.594 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 15:00:56.583 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_15_00_56.html
+2025-10-23 15:00:56.586 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 15:00:56.586 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 15:00:56.588 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 15:00:56.589 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 15:00:56.589 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 15:00:56.589 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 15:00:56.590 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 15:00:56.595 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 15:00:56.596 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 15:00:56.608 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 15:00:56.608 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 15:00:56.617 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:57.891 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:00:57.891 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:00:58.168 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:00:58.175 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:00:58.187 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 15:00:58.188 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 15:00:58.191 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:58.210 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 15:00:58.211 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 15:00:58.211 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 15:00:58.211 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 15:00:58.438 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 15:00:58.459 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 15:00:58.460 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 15:00:58.461 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 15:00:58.462 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 15:00:58.462 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 15:00:58.464 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:58.464 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:58.464 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 15:00:58.599 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:00:58.599 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:00:58.599 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 15:00:58.603 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:59.237 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:00:59.238 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:00:59.564 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:00:59.572 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:00:59.574 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 15:00:59.575 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 15:00:59.575 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:00:59.575 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 15:00:59.575 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 15:00:59.575 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 15:00:59.677 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:00:59.677 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:00:59.677 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:59.678 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:59.679 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 15:00:59.679 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:00:59.809 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:00:59.809 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:00:59.809 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 15:00:59.811 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 15:01:00.444 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:01:00.444 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:01:00.725 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:01:00.730 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:01:00.731 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 15:01:00.731 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 15:01:00.731 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.731 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 15:01:00.732 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 15:01:00.732 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 15:01:00.732 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:01:00.733 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:01:00.733 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 15:01:00.814 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:01:00.814 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:01:00.815 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:01:00.815 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:01:00.815 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53228}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53228/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 15:01:00.816 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 15:01:00.960 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:01:00.961 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:01:00.961 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 15:01:00.965 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.965 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 15:01:00.967 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.969 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.969 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:00.970 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.972 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.972 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:00.972 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.974 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.974 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:00.974 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.975 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.976 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:00.976 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.979 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.979 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 15:01:00.979 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.982 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.982 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 15:01:00.982 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.985 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.985 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 15:01:00.985 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.989 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.990 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 15:01:00.991 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.994 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.995 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 15:01:00.995 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:00.999 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:00.999 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 15:01:01.000 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:01.003 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:01.003 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 15:01:01.003 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:01.006 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:01.007 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 15:01:01.007 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:01.321 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 15:01:01.324 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 15:01:29.775 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_15_01_29.html
+2025-10-23 15:01:29.779 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 15:01:29.779 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 15:01:29.780 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 15:01:29.781 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 15:01:29.781 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 15:01:29.781 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 15:01:29.781 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 15:01:29.785 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 15:01:29.786 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 15:01:29.795 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 15:01:29.795 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 15:01:29.801 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 15:01:31.108 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:01:31.108 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:01:31.403 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:01:31.409 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:01:31.418 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 15:01:31.419 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 15:01:31.423 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:31.447 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 15:01:31.448 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 15:01:31.448 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 15:01:31.448 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 15:01:31.699 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 15:01:31.719 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 15:01:31.719 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 15:01:31.720 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 15:01:31.721 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 15:01:31.721 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 15:01:31.723 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:01:31.723 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:01:31.723 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 15:01:31.902 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:01:31.902 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:01:31.902 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 15:01:31.906 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:01:32.602 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:01:32.603 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:01:32.890 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:01:32.895 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:01:32.896 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 15:01:32.896 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 15:01:32.896 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:32.897 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 15:01:32.897 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 15:01:32.897 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 15:01:33.000 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:01:33.000 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:01:33.000 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:01:33.001 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:01:33.002 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 15:01:33.003 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:01:33.137 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:01:33.137 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:01:33.137 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 15:01:33.139 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 15:01:33.772 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:01:33.772 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:01:34.058 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:01:34.065 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:01:34.068 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 15:01:34.068 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 15:01:34.069 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.069 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 15:01:34.070 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 15:01:34.070 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 15:01:34.070 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:01:34.070 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:01:34.070 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 15:01:34.158 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:01:34.158 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:01:34.158 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:01:34.159 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:01:34.159 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53316/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 15:01:34.159 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 15:01:34.272 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:01:34.273 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:01:34.273 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 15:01:34.277 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.277 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 15:01:34.277 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.280 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.280 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:34.280 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.282 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.282 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:34.282 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.284 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.284 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:34.284 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.286 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.286 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:01:34.286 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.288 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.289 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 15:01:34.289 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.291 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.291 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 15:01:34.292 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.295 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.295 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 15:01:34.296 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.300 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.300 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 15:01:34.301 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.304 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.304 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 15:01:34.304 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.308 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.308 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 15:01:34.308 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.312 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.312 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 15:01:34.312 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.317 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 15:01:34.317 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 15:01:34.317 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:01:34.629 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 15:01:34.631 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 15:02:52.640 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_15_02_52.html
+2025-10-23 15:02:52.642 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 15:02:52.642 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 15:02:52.644 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 15:02:52.644 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 15:02:52.645 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 15:02:52.645 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 15:02:52.645 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 15:02:52.649 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 15:02:52.650 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 15:02:52.661 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 15:02:52.661 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 15:02:52.667 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 15:02:53.934 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:02:53.934 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:02:54.221 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:02:54.230 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:02:54.238 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 15:02:54.239 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 15:02:54.241 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:54.263 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 15:02:54.264 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 15:02:54.264 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 15:02:54.264 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 15:02:54.478 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 15:02:54.503 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 15:02:54.503 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 15:02:54.505 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 15:02:54.506 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 15:02:54.506 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 15:02:54.510 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:02:54.510 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:02:54.511 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 15:02:54.660 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:02:54.660 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:02:54.660 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 15:02:54.664 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:02:55.314 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:02:55.315 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:02:55.607 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:02:55.612 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:02:55.614 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 15:02:55.614 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 15:02:55.614 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:55.615 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 15:02:55.615 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 15:02:55.615 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 15:02:55.713 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:02:55.713 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:02:55.714 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:02:55.714 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:02:55.716 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 15:02:55.716 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:02:55.842 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:02:55.842 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:02:55.842 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 15:02:55.843 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 15:02:56.494 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:02:56.494 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:02:56.762 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:02:56.767 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:02:56.769 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 15:02:56.770 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 15:02:56.770 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:56.771 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 15:02:56.772 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 15:02:56.772 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 15:02:56.773 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:02:56.773 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:02:56.773 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 15:02:56.851 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:02:56.851 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:02:56.851 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:02:56.851 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:02:56.853 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53423}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53423/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 15:02:56.853 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 15:02:57.011 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:02:57.012 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:02:57.012 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 15:02:57.017 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.017 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 15:02:57.017 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.021 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.021 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:02:57.022 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.023 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.023 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:02:57.023 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.025 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.025 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:02:57.026 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.027 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.028 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:02:57.028 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.030 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.030 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 15:02:57.031 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.032 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.032 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 15:02:57.033 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.035 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.035 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 15:02:57.036 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.039 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.040 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 15:02:57.040 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.043 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.043 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 15:02:57.043 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.047 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.047 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 15:02:57.048 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.052 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.052 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 15:02:57.052 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.057 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 15:02:57.057 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 15:02:57.057 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:02:57.352 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 15:02:57.354 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========
+2025-10-23 15:03:25.026 [main] INFO  utils.AdvancedLogger - 📊 Extent Report initialized at: ./extent-reports/Amazon_Automation_Report_2025_10_23_15_03_24.html
+2025-10-23 15:03:25.028 [main] INFO  utils.AdvancedLogger - 🚀 ========== AUTOMATION SUITE STARTED ==========
+2025-10-23 15:03:25.028 [main] INFO  utils.AdvancedLogger - 📋 Suite Name: All Test Suite
+2025-10-23 15:03:25.029 [main] INFO  utils.AdvancedLogger - ✅ Properties loaded from: src/main/resources/config.properties
+2025-10-23 15:03:25.030 [main] INFO  utils.AdvancedLogger - 🌐 Base URL: https://www.saucedemo.com/
+2025-10-23 15:03:25.030 [main] INFO  utils.AdvancedLogger - 🔧 Browser: chrome
+2025-10-23 15:03:25.030 [main] INFO  utils.AdvancedLogger - ⚡ Execution Type: single
+2025-10-23 15:03:25.030 [main] INFO  utils.AdvancedLogger - 👤 Username: standard_user
+2025-10-23 15:03:25.035 [main] INFO  utils.AdvancedLogger - 🎯 Test Suite Started: EmployeeProcessorTest
+2025-10-23 15:03:25.035 [main] INFO  utils.AdvancedLogger - 🔨 Test Context Setup: EmployeeProcessorTest
+2025-10-23 15:03:25.045 [main] INFO  utils.AdvancedLogger - Data: Using configuration: chrome
+2025-10-23 15:03:25.045 [main] ERROR com.testLib.LoginTest - ❌ Driver is null in @BeforeClass. Initializing driver first...
+2025-10-23 15:03:25.051 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyInvalidLogin
+2025-10-23 15:03:26.325 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:03:26.326 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:03:26.629 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:03:26.636 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:03:26.646 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyInvalidLogin | Groups: regression,login | Author: AutomationTeam
+2025-10-23 15:03:26.646 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyInvalidLogin
+2025-10-23 15:03:26.648 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:26.669 [main] INFO  com.testLib.LoginTest - 🎯 Starting invalid login test - verifyInvalidLogin
+2025-10-23 15:03:26.669 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting invalid login test
+2025-10-23 15:03:26.670 [main] INFO  utils.AdvancedLogger - Step: Starting invalid login test
+2025-10-23 15:03:26.670 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with invalid credentials
+2025-10-23 15:03:26.887 [main] INFO  com.testLib.LoginTest - 🔍 Verifying error message for invalid login
+2025-10-23 15:03:26.909 [main] INFO  utils.AdvancedLogger - 🔍 VERIFICATION: Verify error message is shown for invalid credentials
+2025-10-23 15:03:26.910 [main] INFO  utils.AdvancedLogger - Verification: Verify error message is shown for invalid credentials
+2025-10-23 15:03:26.911 [main] INFO  com.testLib.LoginTest - ✅ Invalid login test completed - Error message verified
+2025-10-23 15:03:26.911 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Invalid login test completed
+2025-10-23 15:03:26.911 [main] INFO  utils.AdvancedLogger - Step: Invalid login test completed
+2025-10-23 15:03:26.913 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:03:26.914 [main] INFO  utils.AdvancedLogger - PASS: ✅ Test PASSED: LoginTest.verifyInvalidLogin
+2025-10-23 15:03:26.914 [main] INFO  utils.AdvancedLogger - PASS: Test completed successfully: LoginTest.verifyInvalidLogin
+2025-10-23 15:03:27.053 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:03:27.053 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:03:27.053 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyInvalidLogin
+
+2025-10-23 15:03:27.057 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:03:27.826 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:03:27.826 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:03:28.158 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:03:28.163 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:03:28.164 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyLoginPageUIElements | Groups: ui,sanity,login | Author: AutomationTeam
+2025-10-23 15:03:28.164 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyLoginPageUIElements
+2025-10-23 15:03:28.164 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:28.164 [main] INFO  com.testLib.LoginTest - 🎯 Verifying all UI elements on login page
+2025-10-23 15:03:28.165 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Verifying all UI elements on login page
+2025-10-23 15:03:28.165 [main] INFO  utils.AdvancedLogger - Step: Verifying all UI elements on login page
+2025-10-23 15:03:28.260 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:03:28.260 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyLoginPageUIElements
+2025-10-23 15:03:28.260 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:03:28.261 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:03:28.262 [main] ERROR utils.AdvancedLogger - Exception occurred: Username field should be visible expected [true] but found [false]
+2025-10-23 15:03:28.263 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyLoginPageUIElements
+2025-10-23 15:03:28.389 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:03:28.390 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:03:28.390 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyLoginPageUIElements
+
+2025-10-23 15:03:28.391 [main] INFO  utils.AdvancedLogger - 🎬 Preparing to execute: LoginTest.verifyValidLogin
+2025-10-23 15:03:29.047 [main] INFO  utils.AdvancedLogger - [MainThread] ✅ CHROME WebDriver initialized successfully
+2025-10-23 15:03:29.047 [main] INFO  utils.AdvancedLogger - 🖥️ Single Driver initialized
+2025-10-23 15:03:29.332 [main] INFO  utils.AdvancedLogger - 🌍 Navigated to: https://www.saucedemo.com/
+2025-10-23 15:03:29.337 [main] INFO  utils.AdvancedLogger - 📱 Browser window maximized
+2025-10-23 15:03:29.339 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: LoginTest - verifyValidLogin | Groups: sanity,login | Author: AutomationTeam
+2025-10-23 15:03:29.339 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: LoginTest => verifyValidLogin
+2025-10-23 15:03:29.339 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.340 [main] INFO  com.testLib.LoginTest - 🎯 Starting valid login test - verifyValidLogin
+2025-10-23 15:03:29.341 [main] INFO  utils.AdvancedLogger - 🔹 STEP: Starting valid login test
+2025-10-23 15:03:29.341 [main] INFO  utils.AdvancedLogger - Step: Starting valid login test
+2025-10-23 15:03:29.341 [main] INFO  utils.AdvancedLogger - 📊 DATA: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:03:29.342 [main] INFO  utils.AdvancedLogger - Data: Login credentials - Username: standard_user, Password: secret_sauce
+2025-10-23 15:03:29.342 [main] INFO  com.testLib.LoginTest - 🔑 Attempting login with valid credentials
+2025-10-23 15:03:29.423 [main] INFO  utils.AdvancedLogger - 📸 Screenshot added: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:03:29.423 [main] INFO  utils.AdvancedLogger - 📸 Screenshot captured: FAILURE_LoginTest_verifyValidLogin
+2025-10-23 15:03:29.424 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:03:29.424 [main] ERROR utils.AdvancedLogger - FAIL: ❌ Test FAILED: LoginTest.verifyValidLogin
+2025-10-23 15:03:29.424 [main] ERROR utils.AdvancedLogger - Exception occurred: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53517/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2025-10-23 15:03:29.425 [main] ERROR utils.AdvancedLogger - FAIL: Test failed: LoginTest.verifyValidLogin
+2025-10-23 15:03:29.541 [main] INFO  utils.AdvancedLogger - 🚗 Driver quit successfully for thread: main
+2025-10-23 15:03:29.542 [main] INFO  utils.AdvancedLogger - 🔚 Driver quit successfully
+2025-10-23 15:03:29.542 [main] INFO  utils.AdvancedLogger - 🎬 Test execution completed: LoginTest.verifyValidLogin
+
+2025-10-23 15:03:29.545 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeCreation | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.545 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeCreation
+2025-10-23 15:03:29.545 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.549 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.550 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:03:29.550 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.551 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.552 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:03:29.552 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.554 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.554 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:03:29.554 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.556 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeDataWithDataProvider | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.556 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeDataWithDataProvider
+2025-10-23 15:03:29.557 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.559 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testEmployeeSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.559 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testEmployeeSkills
+2025-10-23 15:03:29.559 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.561 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testFlatMapForSkills | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.561 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testFlatMapForSkills
+2025-10-23 15:03:29.561 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.564 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testLambdaExpressionsWithForEach | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.565 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testLambdaExpressionsWithForEach
+2025-10-23 15:03:29.565 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.568 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testMethodReferences | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.568 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testMethodReferences
+2025-10-23 15:03:29.568 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.571 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testSortingWithLambdaComparator | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.571 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testSortingWithLambdaComparator
+2025-10-23 15:03:29.571 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.574 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamFiltering | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.574 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamFiltering
+2025-10-23 15:03:29.575 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.578 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamMappingAndCollection | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.578 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamMappingAndCollection
+2025-10-23 15:03:29.578 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.582 [main] INFO  utils.AdvancedLogger - 🧪 Test Created: EmployeeProcessorTest - testStreamReductionAndStatistics | Groups: Default | Author: AutomationTeam
+2025-10-23 15:03:29.582 [main] INFO  utils.AdvancedLogger - 🧪 Test Started: EmployeeProcessorTest => testStreamReductionAndStatistics
+2025-10-23 15:03:29.582 [main] INFO  utils.AdvancedLogger - 📝 Test Description: 
+2025-10-23 15:03:29.913 [main] INFO  utils.AdvancedLogger - 📄 Report flushed successfully
+2025-10-23 15:03:29.915 [main] INFO  utils.AdvancedLogger - 🏁 ========== AUTOMATION SUITE COMPLETED ==========

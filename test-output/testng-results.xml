@@ -1,35 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T13:40:02 IST" name="All Test Suite" finished-at="2025-10-23T13:40:06 IST" duration-ms="3290">
+  <suite started-at="2025-10-23T15:03:25 IST" name="All Test Suite" finished-at="2025-10-23T15:03:29 IST" duration-ms="4556">
     <groups>
+      <group name="ui">
+        <method signature="LoginTest.verifyLoginPageUIElements()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyLoginPageUIElements" class="com.testLib.LoginTest"/>
+      </group> <!-- ui -->
       <group name="regression">
-        <method signature="LoginTest.verifyInvalidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" name="verifyInvalidLogin" class="com.ranjeet.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyInvalidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyInvalidLogin" class="com.testLib.LoginTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="LoginTest.verifyValidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" name="verifyValidLogin" class="com.ranjeet.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyLoginPageUIElements()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyLoginPageUIElements" class="com.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyValidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyValidLogin" class="com.testLib.LoginTest"/>
       </group> <!-- sanity -->
       <group name="login">
-        <method signature="LoginTest.verifyInvalidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" name="verifyInvalidLogin" class="com.ranjeet.testLib.LoginTest"/>
-        <method signature="LoginTest.verifyValidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" name="verifyValidLogin" class="com.ranjeet.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyInvalidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyInvalidLogin" class="com.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyLoginPageUIElements()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyLoginPageUIElements" class="com.testLib.LoginTest"/>
+        <method signature="LoginTest.verifyValidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" name="verifyValidLogin" class="com.testLib.LoginTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2025-10-23T13:40:02 IST" name="EmployeeProcessorTest" finished-at="2025-10-23T13:40:06 IST" duration-ms="3290">
+    <test started-at="2025-10-23T15:03:25 IST" name="EmployeeProcessorTest" finished-at="2025-10-23T15:03:29 IST" duration-ms="4556">
+      <class name="com.testLib.LoginTest">
+        <test-method is-config="true" signature="beforeSuiteSetup(org.testng.ITestContext)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:24 IST" name="beforeSuiteSetup" finished-at="2025-10-23T15:03:25 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13866329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method is-config="true" signature="beforeTestSetup(org.testng.ITestContext)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:25 IST" name="beforeTestSetup" finished-at="2025-10-23T15:03:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13866329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSetup -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:25 IST" name="loadConfig" finished-at="2025-10-23T15:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="baseSetup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:25 IST" name="baseSetup" finished-at="2025-10-23T15:03:26 IST" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyInvalidLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@13866329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method signature="verifyInvalidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:26 IST" name="verifyInvalidLogin" finished-at="2025-10-23T15:03:26 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="baseTeardown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:26 IST" name="baseTeardown" finished-at="2025-10-23T15:03:27 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=LoginTest.verifyInvalidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyInvalidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTeardown -->
+        <test-method is-config="true" signature="baseSetup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:27 IST" name="baseSetup" finished-at="2025-10-23T15:03:28 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyLoginPageUIElements()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@13866329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method signature="verifyLoginPageUIElements()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:28 IST" name="verifyLoginPageUIElements" finished-at="2025-10-23T15:03:28 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Username field should be visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Username field should be visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.testLib.LoginTest.verifyLoginPageUIElements(LoginTest.java:108)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageUIElements -->
+        <test-method is-config="true" signature="baseTeardown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:28 IST" name="baseTeardown" finished-at="2025-10-23T15:03:28 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageUIElements status=FAILURE method=LoginTest.verifyLoginPageUIElements()[pri:0, instance:com.testLib.LoginTest@4bc28c33] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyLoginPageUIElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTeardown -->
+        <test-method is-config="true" signature="baseSetup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:28 IST" name="baseSetup" finished-at="2025-10-23T15:03:29 IST" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyValidLogin()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@13866329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:29 IST" name="verifyValidLogin" finished-at="2025-10-23T15:03:29 IST" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53517/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=id, value=user-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53517/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy33.clear(Unknown Source)
+at com.businessLib.LoginPageActions.login(LoginPageActions.java:31)
+at com.testLib.LoginTest.verifyValidLogin(LoginTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="baseTeardown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:29 IST" name="baseTeardown" finished-at="2025-10-23T15:03:29 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=FAILURE method=LoginTest.verifyValidLogin()[pri:0, instance:com.testLib.LoginTest@4bc28c33] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testLib.LoginTest.verifyValidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTeardown -->
+        <test-method is-config="true" signature="afterSuiteTeardown()[pri:0, instance:com.testLib.LoginTest@4bc28c33]" started-at="2025-10-23T15:03:29 IST" name="afterSuiteTeardown" finished-at="2025-10-23T15:03:29 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTeardown -->
+      </class> <!-- com.testLib.LoginTest -->
       <class name="Java8.EmployeeProcessorTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="setUp" finished-at="2025-10-23T13:40:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="setUp" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testEmployeeCreation()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeCreation" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="testEmployeeCreation()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeCreation" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeCreation -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +299,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeDataWithDataProvider -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +329,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeDataWithDataProvider -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,11 +359,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeDataWithDataProvider -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T13:40:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,183 +385,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeDataWithDataProvider -->
-        <test-method signature="testEmployeeSkills()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testEmployeeSkills" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testEmployeeSkills()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testEmployeeSkills" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmployeeSkills -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testFlatMapForSkills()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testFlatMapForSkills" finished-at="2025-10-23T13:40:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="testFlatMapForSkills()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testFlatMapForSkills" finished-at="2025-10-23T15:03:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlatMapForSkills -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testLambdaExpressionsWithForEach()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testLambdaExpressionsWithForEach" finished-at="2025-10-23T13:40:06 IST" duration-ms="3" status="PASS">
+        <test-method signature="testLambdaExpressionsWithForEach()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testLambdaExpressionsWithForEach" finished-at="2025-10-23T15:03:29 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLambdaExpressionsWithForEach -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testMethodReferences()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testMethodReferences" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMethodReferences()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testMethodReferences" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodReferences -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testSortingWithLambdaComparator()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testSortingWithLambdaComparator" finished-at="2025-10-23T13:40:06 IST" duration-ms="4" status="PASS">
+        <test-method signature="testSortingWithLambdaComparator()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testSortingWithLambdaComparator" finished-at="2025-10-23T15:03:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortingWithLambdaComparator -->
-        <test-method signature="testStreamFiltering()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testStreamFiltering" finished-at="2025-10-23T13:40:06 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testStreamFiltering()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testStreamFiltering" finished-at="2025-10-23T15:03:29 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStreamFiltering -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testStreamMappingAndCollection()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testStreamMappingAndCollection" finished-at="2025-10-23T13:40:06 IST" duration-ms="3" status="PASS">
+        <test-method signature="testStreamMappingAndCollection()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testStreamMappingAndCollection" finished-at="2025-10-23T15:03:29 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStreamMappingAndCollection -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testStreamReductionAndStatistics()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="testStreamReductionAndStatistics" finished-at="2025-10-23T13:40:06 IST" duration-ms="5" status="PASS">
+        <test-method signature="testStreamReductionAndStatistics()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="testStreamReductionAndStatistics" finished-at="2025-10-23T15:03:29 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStreamReductionAndStatistics -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="tearDown" finished-at="2025-10-23T13:40:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@5f9b2141]" started-at="2025-10-23T13:40:06 IST" name="afterMethod" finished-at="2025-10-23T13:40:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="afterMethod" finished-at="2025-10-23T15:03:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Java8.EmployeeProcessorTest@b6b1987]" started-at="2025-10-23T15:03:29 IST" name="tearDown" finished-at="2025-10-23T15:03:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Java8.EmployeeProcessorTest -->
-      <class name="com.ranjeet.testLib.LoginTest">
-        <test-method is-config="true" signature="beforeSuiteSetup(org.testng.ITestContext)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:02 IST" name="beforeSuiteSetup" finished-at="2025-10-23T13:40:02 IST" duration-ms="518" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@58f31629]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuiteSetup -->
-        <test-method is-config="true" signature="beforeTestSetup(org.testng.ITestContext)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:02 IST" name="beforeTestSetup" finished-at="2025-10-23T13:40:02 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@58f31629]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestSetup -->
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:02 IST" name="loadConfig" finished-at="2025-10-23T13:40:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="baseSetup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:02 IST" name="baseSetup" finished-at="2025-10-23T13:40:04 IST" duration-ms="1547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ranjeet.testLib.LoginTest.verifyInvalidLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@58f31629]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseSetup -->
-        <test-method signature="verifyInvalidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:04 IST" name="verifyInvalidLogin" finished-at="2025-10-23T13:40:04 IST" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidLogin -->
-        <test-method is-config="true" signature="baseTeardown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:04 IST" name="baseTeardown" finished-at="2025-10-23T13:40:04 IST" duration-ms="113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=LoginTest.verifyInvalidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.ranjeet.testLib.LoginTest.verifyInvalidLogin()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseTeardown -->
-        <test-method is-config="true" signature="baseSetup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:04 IST" name="baseSetup" finished-at="2025-10-23T13:40:05 IST" duration-ms="919" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ranjeet.testLib.LoginTest.verifyValidLogin()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@58f31629]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseSetup -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:05 IST" name="verifyValidLogin" finished-at="2025-10-23T13:40:06 IST" duration-ms="237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="baseTeardown(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:06 IST" name="baseTeardown" finished-at="2025-10-23T13:40:06 IST" duration-ms="130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTest.verifyValidLogin()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.ranjeet.testLib.LoginTest.verifyValidLogin()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- baseTeardown -->
-        <test-method is-config="true" signature="afterSuiteTeardown()[pri:0, instance:com.ranjeet.testLib.LoginTest@625732]" started-at="2025-10-23T13:40:06 IST" name="afterSuiteTeardown" finished-at="2025-10-23T13:40:06 IST" duration-ms="273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuiteTeardown -->
-      </class> <!-- com.ranjeet.testLib.LoginTest -->
     </test> <!-- EmployeeProcessorTest -->
   </suite> <!-- All Test Suite -->
 </testng-results>

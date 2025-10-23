@@ -7,7 +7,7 @@
 
     <test verbose="2" preserve-order="true" name="EmployeeProcessorTest">
         <classes>
-            <class name="com.ranjeet.testLib.LoginTest"/>
+            <class name="com.testLib.LoginTest"/>
             <class name="Java8.EmployeeProcessorTest"/>
         </classes>
     </test>

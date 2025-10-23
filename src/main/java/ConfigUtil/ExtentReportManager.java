@@ -184,6 +184,7 @@ public class ExtentReportManager {
         if (extent != null) {
             extent.flush();
             AdvancedLogger.info("📄 Report flushed successfully");
+            ReportCleanupManager.cleanupOldReports();
         }
     }
 

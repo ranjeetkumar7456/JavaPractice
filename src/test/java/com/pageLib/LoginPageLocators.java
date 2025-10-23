@@ -1,6 +1,5 @@
 package com.pageLib;
 
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,15 +11,54 @@ public class LoginPageLocators {
         PageFactory.initElements(driver, this);
     }
 
+    // ✅ Private fields with @FindBy annotations
     @FindBy(id = "user-name")
-    public WebElement usernameField;
+    private WebElement usernameField;
 
     @FindBy(id = "password")
-    public WebElement passwordField;
+    private WebElement passwordField;
 
     @FindBy(id = "login-button")
-    public WebElement loginButton;
+    private WebElement loginButton;
 
     @FindBy(css = "div.error-message-container h3")
-    public WebElement errorMessage;
+    private WebElement errorMessage;
+
+    @FindBy(className = "login_logo")
+    private WebElement loginLogo;
+
+    @FindBy(className = "bot_column")
+    private WebElement botImage;
+
+    @FindBy(css = ".login_wrapper")
+    private WebElement loginWrapper;
+
+    // ✅ Public getter methods
+    public WebElement getUsernameField() {
+        return usernameField;
+    }
+
+    public WebElement getPasswordField() {
+        return passwordField;
+    }
+
+    public WebElement getLoginButton() {
+        return loginButton;
+    }
+
+    public WebElement getErrorMessage() {
+        return errorMessage;
+    }
+
+    public WebElement getLoginLogo() {
+        return loginLogo;
+    }
+
+    public WebElement getBotImage() {
+        return botImage;
+    }
+
+    public WebElement getLoginWrapper() {
+        return loginWrapper;
+    }
 }
