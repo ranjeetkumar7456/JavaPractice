@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-23T07:16:34 IST" name="All Test Suite" finished-at="2025-10-23T07:16:34 IST" duration-ms="156">
+    <groups>
+    </groups>
+    <test started-at="2025-10-23T07:16:34 IST" name="EmployeeProcessorTest" finished-at="2025-10-23T07:16:34 IST" duration-ms="156">
+      <class name="Java8.EmployeeProcessorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="setUp" finished-at="2025-10-23T07:16:34 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeCreation()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeCreation" finished-at="2025-10-23T07:16:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeCreation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aarav Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDataWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[92000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDataWithDataProvider -->
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[68000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDataWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testEmployeeDataWithDataProvider(int,java.lang.String,double,java.lang.String)[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeDataWithDataProvider" data-provider="employeeData" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anjali Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[78000.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDataWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testEmployeeSkills()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testEmployeeSkills" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeSkills -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testFlatMapForSkills()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testFlatMapForSkills" finished-at="2025-10-23T07:16:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlatMapForSkills -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testLambdaExpressionsWithForEach()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testLambdaExpressionsWithForEach" finished-at="2025-10-23T07:16:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLambdaExpressionsWithForEach -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethodReferences()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testMethodReferences" finished-at="2025-10-23T07:16:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodReferences -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSortingWithLambdaComparator()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testSortingWithLambdaComparator" finished-at="2025-10-23T07:16:34 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortingWithLambdaComparator -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testStreamFiltering()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testStreamFiltering" finished-at="2025-10-23T07:16:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStreamFiltering -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testStreamMappingAndCollection()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testStreamMappingAndCollection" finished-at="2025-10-23T07:16:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStreamMappingAndCollection -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testStreamReductionAndStatistics()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="testStreamReductionAndStatistics" finished-at="2025-10-23T07:16:34 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStreamReductionAndStatistics -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="afterMethod" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Java8.EmployeeProcessorTest@2bfc268b]" started-at="2025-10-23T07:16:34 IST" name="tearDown" finished-at="2025-10-23T07:16:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Java8.EmployeeProcessorTest -->
+    </test> <!-- EmployeeProcessorTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
