@@ -17,167 +17,95 @@ pipeline {
     }
     
     stages {
-        /* ========== RUN LAYER 1 PIPELINE ========== */
+
         stage('EXECUTE LAYER 1: SETUP') {
             steps {
-                echo 'STARTING LAYER 1 PIPELINE'
                 script {
+                    echo "STARTING LAYER 1"
                     env.LAYER_1_STATUS = "RUNNING"
-                    
-                    // Run Layer 1 pipeline
-                    build job: 'JavaPractice-Layer1',
-                          wait: true,
-                          propagate: false
-                    
-                    // Check result
-                    def layer1Build = build(job: 'JavaPractice-Layer1', propagate: false)
-                    if (layer1Build.result == 'SUCCESS') {
-                        env.LAYER_1_STATUS = "SUCCESS"
-                    } else {
-                        env.LAYER_1_STATUS = "FAILED"
-                    }
+
+                    def layer1Build = build job: 'JavaPractice-Layer1',
+                                            wait: true,
+                                            propagate: false
+
+                    env.LAYER_1_STATUS = layer1Build.result
                 }
-                echo 'LAYER 1 EXECUTION COMPLETE'
             }
         }
-        
-        /* ========== RUN LAYER 2 PIPELINE ========== */
+
         stage('EXECUTE LAYER 2: VALIDATION') {
             steps {
-                echo 'STARTING LAYER 2 PIPELINE'
                 script {
+                    echo "STARTING LAYER 2"
                     env.LAYER_2_STATUS = "RUNNING"
-                    
-                    // Run Layer 2 pipeline
-                    build job: 'JavaPractice-Layer2',
-                          wait: true,
-                          propagate: false
-                    
-                    // Check result
-                    def layer2Build = build(job: 'JavaPractice-Layer2', propagate: false)
-                    if (layer2Build.result == 'SUCCESS') {
-                        env.LAYER_2_STATUS = "SUCCESS"
-                    } else {
-                        env.LAYER_2_STATUS = "FAILED"
-                    }
+
+                    def layer2Build = build job: 'JavaPractice-Layer2',
+                                            wait: true,
+                                            propagate: false
+
+                    env.LAYER_2_STATUS = layer2Build.result
                 }
-                echo 'LAYER 2 EXECUTION COMPLETE'
             }
         }
-        
-        /* ========== RUN LAYER 3 PIPELINE ========== */
+
         stage('EXECUTE LAYER 3: COMPILATION') {
             steps {
-                echo 'STARTING LAYER 3 PIPELINE'
                 script {
+                    echo "STARTING LAYER 3"
                     env.LAYER_3_STATUS = "RUNNING"
-                    
-                    // Run Layer 3 pipeline
-                    build job: 'JavaPractice-Layer3',
-                          wait: true,
-                          propagate: false
-                    
-                    // Check result
-                    def layer3Build = build(job: 'JavaPractice-Layer3', propagate: false)
-                    if (layer3Build.result == 'SUCCESS') {
-                        env.LAYER_3_STATUS = "SUCCESS"
-                    } else {
-                        env.LAYER_3_STATUS = "FAILED"
-                    }
+
+                    def layer3Build = build job: 'JavaPractice-Layer3',
+                                            wait: true,
+                                            propagate: false
+
+                    env.LAYER_3_STATUS = layer3Build.result
                 }
-                echo 'LAYER 3 EXECUTION COMPLETE'
             }
         }
-        
-        /* ========== RUN LAYER 4 PIPELINE ========== */
+
         stage('EXECUTE LAYER 4: TESTING') {
             steps {
-                echo 'STARTING LAYER 4 PIPELINE'
                 script {
+                    echo "STARTING LAYER 4"
                     env.LAYER_4_STATUS = "RUNNING"
-                    
-                    // Run Layer 4 pipeline
-                    build job: 'JavaPractice-Layer4',
-                          wait: true,
-                          propagate: false
-                    
-                    // Check result
-                    def layer4Build = build(job: 'JavaPractice-Layer4', propagate: false)
-                    if (layer4Build.result == 'SUCCESS') {
-                        env.LAYER_4_STATUS = "SUCCESS"
-                    } else {
-                        env.LAYER_4_STATUS = "FAILED"
-                    }
+
+                    def layer4Build = build job: 'JavaPractice-Layer4',
+                                            wait: true,
+                                            propagate: false
+
+                    env.LAYER_4_STATUS = layer4Build.result
                 }
-                echo 'LAYER 4 EXECUTION COMPLETE'
             }
         }
-        
-        /* ========== RUN LAYER 5 PIPELINE ========== */
+
         stage('EXECUTE LAYER 5: DEPLOYMENT') {
             steps {
-                echo 'STARTING LAYER 5 PIPELINE'
                 script {
+                    echo "STARTING LAYER 5"
                     env.LAYER_5_STATUS = "RUNNING"
-                    
-                    // Run Layer 5 pipeline
-                    build job: 'JavaPractice-Layer5',
-                          wait: true,
-                          propagate: false
-                    
-                    // Check result
-                    def layer5Build = build(job: 'JavaPractice-Layer5', propagate: false)
-                    if (layer5Build.result == 'SUCCESS') {
-                        env.LAYER_5_STATUS = "SUCCESS"
-                    } else {
-                        env.LAYER_5_STATUS = "FAILED"
-                    }
+
+                    def layer5Build = build job: 'JavaPractice-Layer5',
+                                            wait: true,
+                                            propagate: false
+
+                    env.LAYER_5_STATUS = layer5Build.result
                 }
-                echo 'LAYER 5 EXECUTION COMPLETE'
             }
         }
-        
-        /* ========== GENERATE DASHBOARD ========== */
+
         stage('GENERATE FINAL DASHBOARD') {
             steps {
-                echo 'CREATING EXECUTION DASHBOARD'
                 script {
-                    // Create dashboard report
-                    bat '''
-                        echo "MASTER PIPELINE EXECUTION REPORT" > master_dashboard.txt
-                        echo "=================================" >> master_dashboard.txt
-                        echo "" >> master_dashboard.txt
-                        echo "BUILD INFORMATION:" >> master_dashboard.txt
-                        echo "  Master Build: #${BUILD_NUMBER}" >> master_dashboard.txt
-                        echo "  Execution Time: %DATE% %TIME%" >> master_dashboard.txt
-                        echo "  Master Job: ${JOB_NAME}" >> master_dashboard.txt
-                        echo "" >> master_dashboard.txt
-                        
-                        echo "LAYER EXECUTION STATUS:" >> master_dashboard.txt
-                        echo "  Layer 1 (Setup): ${LAYER_1_STATUS}" >> master_dashboard.txt
-                        echo "  Layer 2 (Validation): ${LAYER_2_STATUS}" >> master_dashboard.txt
-                        echo "  Layer 3 (Compilation): ${LAYER_3_STATUS}" >> master_dashboard.txt
-                        echo "  Layer 4 (Testing): ${LAYER_4_STATUS}" >> master_dashboard.txt
-                        echo "  Layer 5 (Deployment): ${LAYER_5_STATUS}" >> master_dashboard.txt
-                        echo "" >> master_dashboard.txt
-                        
-                        echo "OVERALL STATUS: " >> master_dashboard.txt
-                        if "%LAYER_1_STATUS%"=="SUCCESS" if "%LAYER_2_STATUS%"=="SUCCESS" if "%LAYER_3_STATUS%"=="SUCCESS" if "%LAYER_4_STATUS%"=="SUCCESS" if "%LAYER_5_STATUS%"=="SUCCESS" (
-                            echo "  ALL 5 LAYERS COMPLETED SUCCESSFULLY" >> master_dashboard.txt
-                        ) else (
-                            echo "  SOME LAYERS HAD ISSUES" >> master_dashboard.txt
-                        )
-                        
-                        type master_dashboard.txt
-                    '''
-                    
-                    // Determine overall status
-                    if (env.LAYER_1_STATUS == "SUCCESS" && 
-                        env.LAYER_2_STATUS == "SUCCESS" && 
-                        env.LAYER_3_STATUS == "SUCCESS" && 
-                        env.LAYER_4_STATUS == "SUCCESS" && 
+                    echo "GENERATING DASHBOARD"
+
+                    if (env.LAYER_1_STATUS == "SUCCESS" &&
+                        env.LAYER_2_STATUS == "SUCCESS" &&
+                        env.LAYER_3_STATUS == "SUCCESS" &&
+                        env.LAYER_4_STATUS == "SUCCESS" &&
                         env.LAYER_5_STATUS == "SUCCESS") {
+
                         env.OVERALL_STATUS = "ALL 5 LAYERS SUCCESS"
+
                     } else {
                         env.OVERALL_STATUS = "SOME LAYERS FAILED"
                     }
@@ -188,25 +116,16 @@ pipeline {
     
     post {
         always {
-            echo 'MASTER PIPELINE COMPLETION'
-            
-            // Archive master dashboard
-            archiveArtifacts artifacts: 'master_dashboard.txt', fingerprint: true
-            
-            // Print final summary
-            bat '''
-                echo ========================================
-                echo MASTER PIPELINE EXECUTION SUMMARY
-                echo ========================================
-                echo Layer 1: %LAYER_1_STATUS%
-                echo Layer 2: %LAYER_2_STATUS%
-                echo Layer 3: %LAYER_3_STATUS%
-                echo Layer 4: %LAYER_4_STATUS%
-                echo Layer 5: %LAYER_5_STATUS%
-                echo ----------------------------------------
-                echo Overall: %OVERALL_STATUS%
-                echo ========================================
-            '''
+            echo """
+            ===== MASTER PIPELINE SUMMARY =====
+            Layer 1: ${env.LAYER_1_STATUS}
+            Layer 2: ${env.LAYER_2_STATUS}
+            Layer 3: ${env.LAYER_3_STATUS}
+            Layer 4: ${env.LAYER_4_STATUS}
+            Layer 5: ${env.LAYER_5_STATUS}
+            OVERALL: ${env.OVERALL_STATUS}
+            ===================================
+            """
         }
     }
 }
