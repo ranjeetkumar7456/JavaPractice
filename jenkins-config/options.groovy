@@ -1,44 +1,111 @@
-// ========== PIPELINE OPTIONS ==========
+// ===================================================
+// Pipeline Options Configuration
+// ===================================================
 
+// Get pipeline options
 def getPipelineOptions() {
     return {
-        // Time and Build Management
-        timestamps()
-        timeout(time: 120, unit: 'MINUTES')
-        disableConcurrentBuilds()
+        // Build retention
         buildDiscarder(logRotator(
-            numToKeepStr: '20',
-            artifactNumToKeepStr: '10'
+            numToKeepStr: '50',
+            artifactNumToKeepStr: '20',
+            daysToKeepStr: '30',
+            artifactDaysToKeepStr: '7'
         ))
         
-        // Visual Enhancements
+        // Concurrency control
+        disableConcurrentBuilds()
+        
+        // Timeout
+        timeout(time: 120, unit: 'MINUTES')
+        
+        // Timestamps
+        timestamps()
+        
+        // Color output
         ansiColor('xterm')
+        
+        // Durability
         durabilityHint('PERFORMANCE_OPTIMIZED')
         
-        // Retry Configuration
-        retry(3)
+        // Retry
+        retry(2)
         
-        // Parallel Execution
-        parallelsAlwaysFailFast()
+        // Skip stages after failure
+        skipStagesAfterUnstable()
+        
+        // GitHub project
+        githubProjectProperty(
+            projectUrlStr: 'https://github.com/ranjeetkumar7456/JavaPractice'
+        )
+        
+        // Build triggers
+        // upstream(upstreamProjects: 'dependency-job', threshold: hudson.model.Result.SUCCESS)
     }
 }
 
 // Get options for specific phase
 def getPhaseOptions(String phaseType) {
-    def optionsMap = [
+    def phaseOptions = [
         'SETUP': {
             timeout(time: 15, unit: 'MINUTES')
+            retry(1)
         },
-        'TEST': {
+        'VALIDATION': {
+            timeout(time: 10, unit: 'MINUTES')
+        },
+        'BUILD': {
+            timeout(time: 20, unit: 'MINUTES')
+            retry(1)
+        },
+        'TESTING': {
             timeout(time: 45, unit: 'MINUTES')
             retry(2)
         },
-        'DEPLOY': {
+        'DEPLOYMENT': {
             timeout(time: 30, unit: 'MINUTES')
+        },
+        'ROLLBACK': {
+            timeout(time: 15, unit: 'MINUTES')
         }
     ]
     
-    return optionsMap[phaseType] ?: {}
+    return phaseOptions[phaseType] ?: {}
+}
+
+// Get notification options
+def getNotificationOptions() {
+    return {
+        // Email notifications
+        emailext(
+            subject: '${DEFAULT_SUBJECT}',
+            body: '${DEFAULT_CONTENT}',
+            recipientProviders: [
+                [$class: 'DevelopersRecipientProvider'],
+                [$class: 'RequesterRecipientProvider']
+            ],
+            to: 'team@example.com'
+        )
+    }
+}
+
+// Get artifact archiving options
+def getArchiveOptions() {
+    return {
+        // Archive artifacts
+        archiveArtifacts(
+            artifacts: '**/target/*.jar, **/reports/**/*, **/logs/**/*',
+            fingerprint: true,
+            allowEmptyArchive: false
+        )
+        
+        // Archive test results
+        junit(
+            testResults: '**/target/surefire-reports/*.xml',
+            allowEmptyResults: true,
+            healthScaleFactor: 1.0
+        )
+    }
 }
 
 return this
