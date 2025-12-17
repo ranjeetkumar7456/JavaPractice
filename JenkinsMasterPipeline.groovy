@@ -1,239 +1,349 @@
-// Jenkins Master Pipeline - Generic and Reusable
-def execute() {
-    pipeline {
-        agent any
-        
-        // Load options from config
-        options loadOptions()
-        
-        // Set environment variables
-        environment loadEnvironment()
-        
-        stages {
-            // Load and execute all stages dynamically
-            stage('🚀 Load Pipeline Configuration') {
-                steps {
-                    script {
-                        loadPipelineConfig()
+// ===================================================
+// Jenkins Master Pipeline - Generic Controller
+// ===================================================
+/*
+ * This is the main controller that orchestrates the entire pipeline.
+ * It loads configurations and executes phases dynamically.
+ */
+
+class JenkinsMasterPipeline {
+    
+    def config
+    def utils
+    
+    def executePipeline() {
+        pipeline {
+            agent any
+            
+            options {
+                loadOptions()
+            }
+            
+            environment {
+                loadEnvironment()
+            }
+            
+            parameters {
+                choice(
+                    name: 'DEPLOY_ENVIRONMENT',
+                    choices: ['DEV', 'QA', 'STAGING', 'PROD'],
+                    description: 'Select deployment environment'
+                )
+                booleanParam(
+                    name: 'RUN_TESTS',
+                    defaultValue: true,
+                    description: 'Run automated tests'
+                )
+                booleanParam(
+                    name: 'PERFORM_DEPLOYMENT',
+                    defaultValue: true,
+                    description: 'Perform deployment'
+                )
+                string(
+                    name: 'CUSTOM_TAG',
+                    defaultValue: '',
+                    description: 'Custom tag for deployment'
+                )
+            }
+            
+            stages {
+                stage('🚀 Initialize Pipeline') {
+                    steps {
+                        script {
+                            initializePipeline()
+                        }
+                    }
+                }
+                
+                stage('🔧 Phase 1: Environment Setup') {
+                    steps {
+                        script {
+                            executePhase('phase1', 'Setup')
+                        }
+                    }
+                }
+                
+                stage('🔍 Phase 2: Code Validation') {
+                    steps {
+                        script {
+                            executePhase('phase2', 'Validation')
+                        }
+                    }
+                }
+                
+                stage('⚙️ Phase 3: Build & Compile') {
+                    steps {
+                        script {
+                            executePhase('phase3', 'Build')
+                        }
+                    }
+                }
+                
+                stage('🧪 Phase 4: Testing') {
+                    when {
+                        expression { return params.RUN_TESTS == true }
+                    }
+                    steps {
+                        script {
+                            executeTestingPhase()
+                        }
+                    }
+                }
+                
+                stage('🔄 Rollback Assessment') {
+                    when {
+                        expression { 
+                            return env.TEST_PHASE_STATUS == 'FAILED' || 
+                                   env.ROLLBACK_REQUIRED == 'true'
+                        }
+                    }
+                    steps {
+                        script {
+                            assessRollback()
+                        }
+                    }
+                }
+                
+                stage('📦 Phase 5: Deployment') {
+                    when {
+                        expression { 
+                            return params.PERFORM_DEPLOYMENT == true &&
+                                   env.ROLLBACK_REQUIRED != 'true' &&
+                                   env.TEST_PHASE_STATUS == 'SUCCESS'
+                        }
+                    }
+                    steps {
+                        script {
+                            executePhase('phase5', 'Deployment')
+                        }
+                    }
+                }
+                
+                stage('📊 Generate Reports') {
+                    steps {
+                        script {
+                            generateReports()
+                        }
                     }
                 }
             }
             
-            // Dynamic phase execution
-            stage('🔧 Execute Phase 1: Setup') {
-                steps {
+            post {
+                always {
                     script {
-                        executePhase('phase1', 'PHASE_1')
+                        finalizePipeline()
                     }
                 }
-            }
-            
-            stage('🔍 Execute Phase 2: Validation') {
-                steps {
+                success {
                     script {
-                        executePhase('phase2', 'PHASE_2')
+                        handleSuccess()
                     }
                 }
-            }
-            
-            stage('⚙️ Execute Phase 3: Compilation') {
-                steps {
+                failure {
                     script {
-                        executePhase('phase3', 'PHASE_3')
+                        handleFailure()
                     }
                 }
-            }
-            
-            stage('🧪 Execute Phase 4: Testing') {
-                steps {
+                unstable {
                     script {
-                        executeTestingPhase()
+                        handleUnstable()
                     }
                 }
-            }
-            
-            stage('🔄 Rollback Decision') {
-                when {
-                    expression { return env.ROLLBACK_REQUIRED == 'true' }
-                }
-                steps {
+                changed {
                     script {
-                        executeRollback()
-                    }
-                }
-            }
-            
-            stage('📦 Execute Phase 5: Deployment') {
-                when {
-                    expression { 
-                        return env.ROLLBACK_REQUIRED != 'true' && 
-                               env.TEST_PHASE_STATUS == 'SUCCESS'
-                    }
-                }
-                steps {
-                    script {
-                        executePhase('phase5', 'PHASE_5')
-                    }
-                }
-            }
-            
-            stage('📊 Generate Dashboard Report') {
-                steps {
-                    script {
-                        generateDashboard()
+                        handleChanged()
                     }
                 }
             }
         }
+    }
+    
+    // ========== PRIVATE METHODS ==========
+    
+    private void initializePipeline() {
+        echo "🔧 Initializing Jenkins Master Pipeline..."
         
-        post {
-            always {
-                script {
-                    loadUtils().logger.logPipelineCompletion()
+        // Load utilities
+        utils = load('jenkins-config/utils/loader.groovy')
+        utils.logger.info("Pipeline initialization started")
+        
+        // Load configuration
+        config = [
+            constants: load('jenkins-config/constants.groovy').getAllConstants(),
+            env: load('jenkins-config/environment.groovy'),
+            opts: load('jenkins-config/options.groovy')
+        ]
+        
+        // Set initial environment
+        config.env.setEnv('PIPELINE_STATUS', 'INITIALIZED')
+        config.env.setEnv('START_TIME', new Date().format('yyyy-MM-dd HH:mm:ss'))
+        config.env.setEnv('BUILD_NODE', env.NODE_NAME)
+        config.env.setEnv('BUILD_USER', currentBuild.getBuildCauses()[0].userId ?: 'SYSTEM')
+        
+        utils.logger.success("Pipeline initialized successfully")
+        utils.logger.info("Project: ${config.constants.project.name}")
+        utils.logger.info("Version: ${config.constants.project.version}")
+    }
+    
+    private void loadOptions() {
+        def options = config?.opts?.getPipelineOptions()
+        if (options) {
+            options()
+        }
+    }
+    
+    private void loadEnvironment() {
+        def envVars = config?.env?.getEnvironmentVariables()
+        if (envVars) {
+            return envVars
+        }
+        return [:]
+    }
+    
+    private void executePhase(String phaseFile, String phaseName) {
+        utils.logger.section("Starting Phase: ${phaseName}")
+        
+        try {
+            // Update phase status
+            config.env.updatePhaseStatus(phaseName.toUpperCase(), 'RUNNING')
+            
+            // Load and execute phase
+            def phaseScript = utils.loadStage(phaseFile)
+            phaseScript.execute(config, params)
+            
+            // Mark as success
+            config.env.updatePhaseStatus(phaseName.toUpperCase(), 'SUCCESS')
+            utils.logger.success("Phase ${phaseName} completed successfully")
+            
+        } catch (Exception e) {
+            config.env.updatePhaseStatus(phaseName.toUpperCase(), 'FAILED', e.getMessage())
+            utils.logger.error("Phase ${phaseName} failed", e)
+            
+            // Update pipeline status
+            config.env.setEnv('PIPELINE_STATUS', 'FAILED')
+            error("Phase ${phaseName} execution failed")
+        }
+    }
+    
+    private void executeTestingPhase() {
+        utils.logger.section("Starting Testing Phase")
+        
+        try {
+            config.env.setEnv('TEST_PHASE_STATUS', 'RUNNING')
+            
+            // Load testing phase
+            def testPhase = utils.loadStage('phase4')
+            testPhase.execute(config, params)
+            
+            // Check test results
+            def testPercentage = config.env.getEnv('TEST_PASS_PERCENTAGE', '0').toFloat()
+            def threshold = config.constants.test.passThreshold.toFloat()
+            
+            if (testPercentage >= threshold) {
+                config.env.setEnv('TEST_PHASE_STATUS', 'SUCCESS')
+                utils.logger.success("Tests passed with ${testPercentage}% (Threshold: ${threshold}%)")
+            } else {
+                config.env.setEnv('TEST_PHASE_STATUS', 'FAILED')
+                utils.logger.warning("Tests failed with ${testPercentage}% (Threshold: ${threshold}%)")
+                
+                // Check retry count
+                def retryCount = config.env.getEnv('TEST_RETRY_COUNT', '0').toInteger()
+                def maxRetries = config.constants.test.maxRetryCount.toInteger()
+                
+                if (retryCount >= maxRetries) {
+                    config.env.setEnv('ROLLBACK_REQUIRED', 'true')
+                    config.env.setEnv('ROLLBACK_REASON', 
+                        "Tests consistently below threshold (${retryCount}/${maxRetries} retries)")
                 }
             }
-            success {
-                script {
-                    loadUtils().notifier.sendSuccessNotification()
-                }
-            }
-            failure {
-                script {
-                    loadUtils().notifier.sendFailureNotification()
-                }
-            }
-            unstable {
-                script {
-                    loadUtils().notifier.sendUnstableNotification()
-                }
+            
+        } catch (Exception e) {
+            config.env.setEnv('TEST_PHASE_STATUS', 'FAILED')
+            utils.logger.error("Testing phase failed", e)
+            error("Testing phase execution failed")
+        }
+    }
+    
+    private void assessRollback() {
+        utils.logger.section("Assessing Rollback Requirement")
+        
+        if (env.ROLLBACK_REQUIRED == 'true') {
+            utils.logger.warning("Rollback required: ${env.ROLLBACK_REASON}")
+            
+            try {
+                def rollbackScript = utils.loadStage('rollback')
+                rollbackScript.execute(config, params)
+                
+                config.env.setEnv('PIPELINE_STATUS', 'ROLLBACK_EXECUTED')
+                currentBuild.result = 'UNSTABLE'
+                
+            } catch (Exception e) {
+                utils.logger.error("Rollback assessment failed", e)
+                config.env.setEnv('PIPELINE_STATUS', 'ROLLBACK_FAILED')
+                error("Rollback assessment failed")
             }
         }
     }
-}
-
-// ========== HELPER METHODS ==========
-
-def loadOptions() {
-    def optionsConfig = load('jenkins-config/options.groovy')
-    return optionsConfig.getPipelineOptions()
-}
-
-def loadEnvironment() {
-    def envConfig = load('jenkins-config/environment.groovy')
-    return envConfig.getEnvironmentVariables()
-}
-
-def loadPipelineConfig() {
-    echo "📁 Loading Pipeline Configuration..."
     
-    // Load all configuration
-    def constants = load('jenkins-config/constants.groovy').getAllConstants()
-    def envVars = load('jenkins-config/environment.groovy').getEnvironmentVariables()
-    
-    // Set initial status
-    env.PIPELINE_STATUS = "INITIALIZED"
-    env.START_TIME = new Date().format('yyyy-MM-dd HH:mm:ss')
-    
-    echo "✅ Pipeline Configuration Loaded"
-    echo "Project: ${constants.PROJECT_NAME}"
-    echo "Version: ${constants.PIPELINE_VERSION}"
-}
-
-def loadUtils() {
-    return load('jenkins-config/utils/loader.groovy')
-}
-
-def executePhase(phaseFile, phaseKey) {
-    echo "▶️ Starting ${phaseKey}..."
-    
-    try {
-        // Update phase status
-        env["${phaseKey}_STATUS"] = "RUNNING"
+    private void generateReports() {
+        utils.logger.section("Generating Reports")
         
-        // Load and execute phase
-        def phaseScript = load("jenkins-config/stages/${phaseFile}.groovy")
-        phaseScript.execute(loadConfig())
-        
-        // Mark as success
-        env["${phaseKey}_STATUS"] = "SUCCESS"
-        echo "✅ ${phaseKey} completed successfully"
-        
-    } catch (Exception e) {
-        env["${phaseKey}_STATUS"] = "FAILED"
-        env.PIPELINE_STATUS = "FAILED"
-        echo "❌ ${phaseKey} failed: ${e.getMessage()}"
-        error("Phase execution failed")
+        try {
+            def dashboardScript = utils.loadStage('dashboard')
+            dashboardScript.generate(config, params)
+            
+            utils.logger.success("Reports generated successfully")
+            
+        } catch (Exception e) {
+            utils.logger.error("Report generation failed", e)
+        }
     }
-}
-
-def executeTestingPhase() {
-    echo "🧪 Starting Testing Phase..."
     
-    try {
-        env.TEST_PHASE_STATUS = "RUNNING"
+    private void finalizePipeline() {
+        utils.logger.section("Finalizing Pipeline")
         
-        // Load testing phase
-        def testPhase = load('jenkins-config/stages/phase4.groovy')
-        def config = loadConfig()
+        // Calculate duration
+        def startTime = config.env.getEnv('START_TIME')
+        def endTime = new Date().format('yyyy-MM-dd HH:mm:ss')
+        config.env.setEnv('END_TIME', endTime)
         
-        // Execute with retry logic
-        testPhase.executeWithRetry(config)
-        
-        // Check if rollback required
-        if (env.TEST_PASS_PERCENTAGE.toFloat() < config.constants.PASS_THRESHOLD.toFloat() &&
-            env.TEST_RETRY_COUNT.toInteger() >= config.constants.MAX_RETRY_COUNT.toInteger()) {
-            env.ROLLBACK_REQUIRED = "true"
-            env.TEST_PHASE_STATUS = "FAILED"
-        } else {
-            env.TEST_PHASE_STATUS = "SUCCESS"
+        // Update final status if not already set
+        if (!env.PIPELINE_STATUS || env.PIPELINE_STATUS == 'INITIALIZED') {
+            def allPhasesSuccess = [
+                env.PHASE_SETUP_STATUS,
+                env.PHASE_VALIDATION_STATUS,
+                env.PHASE_BUILD_STATUS,
+                env.TEST_PHASE_STATUS,
+                env.PHASE_DEPLOYMENT_STATUS
+            ].every { it == 'SUCCESS' || it == 'SKIPPED' }
+            
+            config.env.setEnv('PIPELINE_STATUS', allPhasesSuccess ? 'SUCCESS' : 'FAILED')
         }
         
-    } catch (Exception e) {
-        env.TEST_PHASE_STATUS = "FAILED"
-        error("Testing phase failed: ${e.getMessage()}")
+        utils.logger.info("Pipeline Status: ${env.PIPELINE_STATUS}")
+        utils.logger.info("Start Time: ${startTime}")
+        utils.logger.info("End Time: ${endTime}")
     }
-}
-
-def executeRollback() {
-    echo "🔄 Executing Rollback Procedure..."
     
-    try {
-        def rollbackScript = load('jenkins-config/stages/rollback.groovy')
-        def config = loadConfig()
-        
-        rollbackScript.execute(config)
-        
-        env.PIPELINE_STATUS = "ROLLBACK_EXECUTED"
-        echo "✅ Rollback completed"
-        
-    } catch (Exception e) {
-        env.PIPELINE_STATUS = "ROLLBACK_FAILED"
-        error("Rollback failed: ${e.getMessage()}")
+    private void handleSuccess() {
+        utils.logger.success("🎉 Pipeline completed successfully!")
+        utils.notifier.sendSuccessNotification(config, params)
     }
-}
-
-def generateDashboard() {
-    echo "📊 Generating Dashboard Report..."
     
-    try {
-        def dashboardScript = load('jenkins-config/stages/dashboard.groovy')
-        def config = loadConfig()
-        
-        dashboardScript.generate(config)
-        
-        echo "✅ Dashboard generated successfully"
-        
-    } catch (Exception e) {
-        echo "⚠️ Dashboard generation failed: ${e.getMessage()}"
+    private void handleFailure() {
+        utils.logger.error("❌ Pipeline failed!")
+        utils.notifier.sendFailureNotification(config, params)
+    }
+    
+    private void handleUnstable() {
+        utils.logger.warning("⚠️ Pipeline completed with warnings")
+        utils.notifier.sendUnstableNotification(config, params)
+    }
+    
+    private void handleChanged() {
+        utils.logger.info("Pipeline status changed from previous build")
     }
 }
 
-def loadConfig() {
-    return [
-        constants: load('jenkins-config/constants.groovy').getAllConstants(),
-        environment: load('jenkins-config/environment.groovy').getEnvironmentVariables(),
-        utils: loadUtils()
-    ]
-}
-
-return this
+// Create instance and return
+return new JenkinsMasterPipeline()
