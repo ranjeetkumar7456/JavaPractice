@@ -1,83 +1,155 @@
-// ========== PIPELINE CONSTANTS ==========
+// ===================================================
+// Pipeline Constants Configuration
+// ===================================================
 
-// Pipeline Metadata
-PROJECT_NAME = "Java8Feature"
-PIPELINE_VERSION = "2.0.0"
-PIPELINE_AUTHOR = "Jenkins Automation Team"
+// Project Information
+PROJECT_INFO = [
+    name: "Java8Feature",
+    description: "Java 8 Features Automation Project",
+    version: "2.0.0",
+    owner: "Automation Team",
+    repository: "JavaPractice"
+]
 
 // Test Configuration
-PASS_THRESHOLD = 70
-MAX_RETRY_COUNT = 5
-MIN_TEST_COUNT = 1
+TEST_CONFIG = [
+    passThreshold: 70,
+    maxRetryCount: 5,
+    minTestCount: 1,
+    timeoutMinutes: 45,
+    reportFormats: ["junit", "html", "json"]
+]
 
 // Job Configuration
-JOBS = [
-    PHASE1: "JavaPractice-Phase1",
-    PHASE2: "JavaPractice-Phase2", 
-    PHASE3: "JavaPractice-Phase3",
-    PHASE4: "JavaPractice-Phase4",
-    PHASE5: "JavaPractice-Phase5"
+JOB_CONFIG = [
+    phase1: [
+        name: "JavaPractice-Phase1",
+        description: "Environment Setup",
+        timeout: 15
+    ],
+    phase2: [
+        name: "JavaPractice-Phase2",
+        description: "Code Validation",
+        timeout: 10
+    ],
+    phase3: [
+        name: "JavaPractice-Phase3",
+        description: "Build & Compilation",
+        timeout: 20
+    ],
+    phase4: [
+        name: "JavaPractice-Phase4",
+        description: "Test Execution",
+        timeout: 45
+    ],
+    phase5: [
+        name: "JavaPractice-Phase5",
+        description: "Deployment",
+        timeout: 30
+    ]
 ]
 
 // Path Configuration
-PATHS = [
-    TEST_RESULTS: "target/surefire-reports/*.xml",
-    BUILD_ARTIFACTS: "target/*.jar",
-    REPORTS: "test-output/"
+PATH_CONFIG = [
+    source: "src/main/java",
+    tests: "src/test/java",
+    resources: "src/main/resources",
+    testResources: "src/test/resources",
+    reports: [
+        test: "target/surefire-reports",
+        coverage: "target/site/jacoco",
+        checkstyle: "target/checkstyle-result.xml"
+    ],
+    artifacts: [
+        build: "target/*.jar",
+        libs: "target/libs/*.jar",
+        docs: "target/site/*"
+    ]
 ]
 
 // Git Configuration
 GIT_CONFIG = [
-    REPO_URL: "https://github.com/ranjeetkumar7456/JavaPractice.git",
-    BRANCH: "main",
-    CREDENTIALS_ID: "github-credentials"
+    repository: "https://github.com/ranjeetkumar7456/JavaPractice.git",
+    branch: "main",
+    credentialsId: "github-credentials",
+    userName: "Jenkins",
+    userEmail: "jenkins@example.com"
 ]
 
 // Notification Configuration
-NOTIFICATIONS = [
-    EMAIL_TO: "team@example.com",
-    EMAIL_CC: "manager@example.com",
-    SLACK_CHANNEL: "#jenkins-notifications",
-    ON_SUCCESS: true,
-    ON_FAILURE: true,
-    ON_UNSTABLE: true
+NOTIFICATION_CONFIG = [
+    email: [
+        recipients: "team@example.com",
+        cc: "manager@example.com",
+        onSuccess: true,
+        onFailure: true,
+        onUnstable: true
+    ],
+    slack: [
+        channel: "#jenkins-notifications",
+        enabled: true,
+        onSuccess: true,
+        onFailure: true
+    ]
 ]
 
-// Timeout Configuration
-TIMEOUTS = [
-    PHASE: 30,    // minutes
-    TEST: 45,     // minutes
-    DEPLOY: 60    // minutes
+// Deployment Configuration
+DEPLOYMENT_CONFIG = [
+    environments: [
+        DEV: [
+            url: "http://dev.example.com",
+            credentialsId: "dev-credentials"
+        ],
+        QA: [
+            url: "http://qa.example.com",
+            credentialsId: "qa-credentials"
+        ],
+        STAGING: [
+            url: "http://staging.example.com",
+            credentialsId: "staging-credentials"
+        ],
+        PROD: [
+            url: "http://prod.example.com",
+            credentialsId: "prod-credentials"
+        ]
+    ],
+    strategies: [
+        BLUE_GREEN: "blue-green",
+        CANARY: "canary",
+        ROLLING: "rolling"
+    ]
 ]
 
 // Return all constants
 def getAllConstants() {
     return [
-        project: PROJECT_NAME,
-        version: PIPELINE_VERSION,
-        author: PIPELINE_AUTHOR,
-        
-        testConfig: [
-            passThreshold: PASS_THRESHOLD,
-            maxRetryCount: MAX_RETRY_COUNT,
-            minTestCount: MIN_TEST_COUNT
-        ],
-        
-        jobs: JOBS,
-        paths: PATHS,
+        project: PROJECT_INFO,
+        test: TEST_CONFIG,
+        jobs: JOB_CONFIG,
+        paths: PATH_CONFIG,
         git: GIT_CONFIG,
-        notifications: NOTIFICATIONS,
-        timeouts: TIMEOUTS
+        notifications: NOTIFICATION_CONFIG,
+        deployment: DEPLOYMENT_CONFIG
     ]
 }
 
-// Get specific constant category
-def getConstant(category, key = null) {
+// Get specific constant
+def getConstant(category, subcategory = null, key = null) {
     def allConstants = getAllConstants()
-    if (key) {
-        return allConstants[category][key]
+    
+    if (!subcategory && !key) {
+        return allConstants[category]
     }
-    return allConstants[category]
+    
+    if (subcategory && !key) {
+        return allConstants[category][subcategory]
+    }
+    
+    if (subcategory && key) {
+        return allConstants[category][subcategory][key]
+    }
+    
+    return null
 }
 
 return this
